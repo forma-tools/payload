@@ -1,0 +1,11 @@
+[tool.forma]
+name = "payload"
+description = "Payload CMS - types, migrations, seed, admin build"
+command = "payload"
+origin = "vendor"
+status = "stable"
+auth = "none"
+resources = ["types", "migrations", "seed", "admin"]
+install = "npx create-payload-app"
+update = "npx create-payload-app"
+repo = "https://github.com/payloadcms/payload"
